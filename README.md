@@ -7,7 +7,6 @@ A simple auto clicker tool that simulates mouse clicks and supports customizable
 - Supports left, right, and middle mouse button clicks
 - Customizable click interval (in seconds)
 - Hotkey control (start/stop, pause/resume)
-- Command-line interface
 - Graphical user interface
 
 ## Installation
@@ -20,27 +19,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Command-line Version
-
-Run the tool:
-
-```
-python auto_clicker.py
-```
-
-Hotkeys:
-- `F6`: Start/Stop auto click
-- `F8`: Pause/Resume auto click
-- `F9`: Stop auto click
-- `Esc`: Exit program
-
-Menu options:
-1. Change click interval
-2. Change click button (left/right/middle/space)
-3. Exit program
-
-### GUI Version
-
 Run the GUI version:
 
 ```
@@ -52,6 +30,17 @@ In the GUI, you can:
 - Select click button type from dropdown
 - Control auto click with buttons or hotkeys
 - View real-time status
+
+### GUI Controls
+
+- **Interval Settings**: Enter the time interval between clicks in seconds
+- **Button Settings**: Choose which mouse button or key to simulate
+- **Control Buttons**: Start, pause, and stop the auto click functionality
+- **Hotkeys**: 
+  - `F6`: Start/Stop auto click
+  - `F8`: Pause/Resume auto click
+  - `F9`: Stop auto click
+  - `Esc`: Exit program
 
 ## Notes
 
